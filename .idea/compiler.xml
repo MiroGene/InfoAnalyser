@@ -8,16 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="InfoAnalyse" />
         <module name="InvokeR" />
+        <module name="PageAnalyser" />
         <module name="Spider" />
+        <module name="spiderdata" />
         <module name="SpiderVisualization" />
         <module name="WebCollector" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="InfoAnalyse" target="1.8" />
-      <module name="InvokeR" target="1.8" />
-      <module name="Spider" target="1.8" />
-      <module name="SpiderVisualization" target="1.8" />
+      <module name="InfoAnalyser" target="1.5" />
+      <module name="InvokeR" target="1.5" />
+      <module name="PageAnalyser" target="1.5" />
+      <module name="Spider" target="1.5" />
+      <module name="spiderdata" target="1.5" />
+      <module name="SpiderVisualization" target="1.5" />
       <module name="WebCollector" target="1.8" />
     </bytecodeTargetLevel>
   </component>

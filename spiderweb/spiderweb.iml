@@ -12,9 +12,6 @@
         <sourceRoots />
       </configuration>
     </facet>
-    <facet type="Spring" name="Spring">
-      <configuration />
-    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -24,7 +21,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="org.thymeleaf:thymeleaf:Release" level="project" />
-    <orderEntry type="library" name="org.thymeleaf:thymeleaf-spring4:Release" level="project" />
   </component>
 </module>
