@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="InfoAnalyse" />
+        <module name="InvokeR" />
+        <module name="Spider" />
+        <module name="SpiderVisualization" />
+        <module name="WebCollector" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="InfoAnalyse" target="1.8" />
+      <module name="InvokeR" target="1.8" />
+      <module name="Spider" target="1.8" />
+      <module name="SpiderVisualization" target="1.8" />
+      <module name="WebCollector" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
