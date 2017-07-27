@@ -1,10 +1,8 @@
 package controller;
 
-import com.setvar.SetVar;
+import com.service.OriginalDataService;
 import com.vo.ConditionVo;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+
 /**
  * Created by Gene on 2017/7/25.
  */

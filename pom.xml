@@ -9,24 +9,28 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spiderweb</module>
         <module>spiderdata</module>
         <module>PageAnalyser</module>
         <module>SpiderWeb</module>
+
     </modules>
+    <properties>
+        <slf4j-api.version>1.7.7</slf4j-api.version>
+        <slf4j-log4j12.version>1.7.7</slf4j-log4j12.version>
+    </properties>
     <dependencies>
-        <!--日志-->
+<!--        &lt;!&ndash;日志&ndash;&gt;
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.9</version>
         </dependency>
-    </dependencies>
+
     <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
         <version>1.7.21</version>
-    </dependency>
+    </dependency>-->
     <!--测试-->
     <dependency>
         <groupId>junit</groupId>
@@ -34,4 +38,32 @@
         <version>4.12</version>
         <scope>test</scope>
     </dependency>
+    <!--log-->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>${slf4j-api.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>${slf4j-log4j12.version}</version>
+    </dependency>
+        <!--持久化/数据分析层-->
+<!--                <dependency>
+                    <groupId>InfoAnalyse</groupId>
+                    <artifactId>PageAnalyser</artifactId>
+                    <version>1.0-SNAPSHOT</version>
+                </dependency>
+                <dependency>
+                    <groupId>InfoAnalyse</groupId>
+                    <artifactId>InvokeR</artifactId>
+                    <version>1.0-SNAPSHOT</version>
+                </dependency>
+              <dependency>
+                    <groupId>InfoAnalyse</groupId>
+                    <artifactId>spider-data</artifactId>
+                    <version>1.0-SNAPSHOT</version>
+                </dependency>-->
+    </dependencies>
 </project>
