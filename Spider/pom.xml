@@ -78,7 +78,11 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.3.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>InfoAnalyse</groupId>
+            <artifactId>spider-data</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
         <!--持久化/数据分析层-->
 <!--        <dependency>

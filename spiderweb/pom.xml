@@ -12,13 +12,13 @@
     <artifactId>SpiderWeb</artifactId>
     <dependencies>
         <!--开始执行爬虫-->
-<!--
+
         <dependency>
             <groupId>InfoAnalyse</groupId>
             <artifactId>Spider</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
--->
+
         <!--持久化 只用于查数据/也可用于保存筛选条件-->
        <dependency>
             <groupId>InfoAnalyse</groupId>

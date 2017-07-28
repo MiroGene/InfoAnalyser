@@ -12,7 +12,8 @@
         <module>spiderdata</module>
         <module>PageAnalyser</module>
         <module>SpiderWeb</module>
-
+        <module>Spider</module>
+        <module>InvokeR</module>
     </modules>
     <properties>
         <slf4j-api.version>1.7.7</slf4j-api.version>
