@@ -21,7 +21,7 @@
       <module name="InfoAnalyser" target="1.5" />
       <module name="InvokeR" target="1.5" />
       <module name="PageAnalyser" target="1.5" />
-      <module name="Spider" target="1.5" />
+      <module name="Spider" target="1.6" />
       <module name="SpiderData" target="1.5" />
       <module name="SpiderVisualization" target="1.5" />
       <module name="SpiderWeb" target="1.5" />

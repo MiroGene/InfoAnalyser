@@ -1,9 +1,12 @@
 D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\vo\ConditionVo.java
-D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\setvar\SetVar.java
 D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\controller\SpiderController.java
 D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\controller\threadtest\LifeOff.java
-D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\vo\OriginalData.java
+D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\utils\ConfigParse.java
 D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\controller\threadtest\MainThread.java
+D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\Spider.java
+D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\setvar\SetVar.java
+D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\Customer.java
+D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\vo\OriginalData.java
 D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\controller\threadtest\BasicThreads.java
 D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\controller\threadtest\ExecutorTest.java
 D:\workspaceAll\InfoAnalyser\Spider\src\main\java\com\controller\threadtest2\SimplePriorities.java

@@ -10,7 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>Spider</artifactId>
     <packaging>jar</packaging>
-
+    <properties>
+        <typesafe.config.version>1.2.1</typesafe.config.version>
+    </properties>
     <profiles>
         <profile>
             <id>dev</id>
@@ -23,6 +25,7 @@
             <build>
                 <filters>
                     <filter>profiles/${build.profile.id}/conf.properties</filter>
+                    <filter>profiles/${build.profile.id}/spider-conf.properties</filter>
                 </filters>
             </build>
         </profile>
@@ -34,6 +37,7 @@
             <build>
                 <filters>
                     <filter>profiles/${build.profile.id}/conf.properties</filter>
+                    <filter>profiles/${build.profile.id}/spider-conf.properties</filter>
                 </filters>
             </build>
         </profile>
@@ -43,7 +47,18 @@
         <finalName>${project.artifactId}-${project.version}-${build.profile.id}</finalName>
         <filters>
             <filter>profiles/${build.profile.id}/conf.properties</filter>
+            <filter>profiles/${build.profile.id}/spider-conf.properties</filter>
         </filters>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -51,7 +66,6 @@
                 <excludes>
                     <exclude>dev/*</exclude>
                     <exclude>test/*</exclude>
-
                 </excludes>
             </resource>
             <resource>
@@ -61,6 +75,7 @@
     </build>
 
     <dependencies>
+
         <dependency>
             <groupId>cn.edu.hfut.dmic.webcollector</groupId>
             <artifactId>WebCollector</artifactId>
@@ -84,6 +99,11 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>${typesafe.config.version}</version>
+        </dependency>
         <!--持久化/数据分析层-->
 <!--        <dependency>
             <groupId>InfoAnalyse</groupId>
